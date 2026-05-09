@@ -1,4 +1,4 @@
-# claude-seo-skill
+# seo-agent
 
 > A Claude Code skill with 19 sub-skills for technical SEO, E-E-A-T, GEO, LLM optimization, and AI Overviews. Real data only — no hallucinated metrics.
 
