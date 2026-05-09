@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Your Company Name",
+  "legalName": "Your Company Legal Name LLC",
+  "url": "https://example.com",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://example.com/logo.png",
+    "width": 512,
+    "height": 512
+  },
+  "description": "One clear sentence describing what your company does and who it serves.",
+  "foundingDate": "2020",
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q[YOUR_ENTITY_ID]",
+    "https://www.linkedin.com/company/your-company",
+    "https://twitter.com/yourcompany",
+    "https://www.crunchbase.com/organization/your-company",
+    "https://github.com/your-org"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "email": "support@example.com",
+    "availableLanguage": ["English"]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "US",
+    "addressRegion": "CA",
+    "addressLocality": "San Francisco"
+  }
+}

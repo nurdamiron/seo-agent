@@ -1,0 +1,55 @@
+name: Validate SKILL.md
+
+on:
+  push:
+    paths:
+      - 'SKILL.md'
+  pull_request:
+    paths:
+      - 'SKILL.md'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check SKILL.md exists and is non-empty
+        run: |
+          if [ ! -f SKILL.md ]; then
+            echo "SKILL.md missing"
+            exit 1
+          fi
+          lines=$(wc -l < SKILL.md)
+          if [ "$lines" -lt 100 ]; then
+            echo "SKILL.md looks truncated ($lines lines)"
+            exit 1
+          fi
+          echo "SKILL.md OK ($lines lines)"
+
+      - name: Check required sections present
+        run: |
+          sections=(
+            "STEP 1"
+            "STEP 7"
+            "Sub-skills"
+            "llms.txt"
+            "Core Web Vitals"
+            "E-E-A-T"
+            "Schema Markup"
+          )
+          for section in "${sections[@]}"; do
+            if ! grep -q "$section" SKILL.md; then
+              echo "Missing section: $section"
+              exit 1
+            fi
+          done
+          echo "All required sections present"
+
+      - name: Check frontmatter present
+        run: |
+          if ! head -5 SKILL.md | grep -q "^name:"; then
+            echo "Frontmatter missing or malformed"
+            exit 1
+          fi
+          echo "Frontmatter OK"

@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Your Article Title (max 110 chars)",
+  "description": "Your meta description — what the article covers in 150–160 chars.",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://example.com/images/article-hero.jpg",
+    "width": 1200,
+    "height": 630
+  },
+  "datePublished": "2026-01-15T09:00:00Z",
+  "dateModified": "2026-05-09T12:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "Author Full Name",
+    "url": "https://example.com/authors/author-name",
+    "sameAs": [
+      "https://www.linkedin.com/in/authorname",
+      "https://twitter.com/authorname"
+    ],
+    "jobTitle": "Senior Writer",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Your Company Name",
+      "url": "https://example.com"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Your Company Name",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://example.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.com/your-article-url"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".article-summary", ".article-conclusion"]
+  },
+  "wordCount": 1500,
+  "inLanguage": "en-US"
+}

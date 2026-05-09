@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Your Business Name",
+  "image": "https://example.com/storefront.jpg",
+  "url": "https://example.com",
+  "telephone": "+1-555-000-0000",
+  "email": "hello@example.com",
+  "priceRange": "$$",
+  "description": "What your business does and who it serves — one clear sentence.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Main Street",
+    "addressLocality": "City",
+    "addressRegion": "State",
+    "postalCode": "00000",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday"],
+      "opens": "10:00",
+      "closes": "16:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.google.com/maps/place/YOUR_PLACE_ID",
+    "https://www.yelp.com/biz/your-business",
+    "https://www.facebook.com/yourbusiness"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "124",
+    "bestRating": "5"
+  }
+}

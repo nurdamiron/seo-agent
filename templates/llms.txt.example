@@ -1,0 +1,23 @@
+# [Site Name]
+
+> [One sentence: what the site is and who it's for. Be specific — this is what AI uses to describe you.]
+
+## Docs
+- [Getting Started](https://example.com/docs/getting-started): How to set up and configure [product] in under 5 minutes
+- [API Reference](https://example.com/docs/api): Full REST API documentation with request/response examples
+- [Pricing](https://example.com/pricing): Plan comparison and pricing for individuals, teams, and enterprise
+
+## Blog
+- [How We Reduced LCP by 40%](https://example.com/blog/lcp-optimization): Case study with real before/after metrics
+- [2026 State of [Industry]](https://example.com/blog/state-of-industry): Original research with survey data from 500 companies
+
+## About
+- [About Us](https://example.com/about): Company background, team, and mission
+- [Case Studies](https://example.com/case-studies): Real customer results with measurable outcomes
+
+## Not for LLMs
+- /admin
+- /checkout
+- /account
+- /login
+- /api/internal
