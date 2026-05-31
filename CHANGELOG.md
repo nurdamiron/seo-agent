@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased — 2026-05-31
+
+### Changed
+- Repositioned README as a curated collection of working Claude skills (official Anthropic, Claude Code dev tooling, marketing/SEO/LLM) plus the built-in SEO agent as the headline bonus. All external links verified live on 2026-05-31 with current star counts.
+- Fixed broken install URL in README (`claude-seo-skill` → `seo-agent`).
+
 ## v4.0 — 2026-05-09
 
 ### Added
