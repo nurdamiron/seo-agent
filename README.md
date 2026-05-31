@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 seo-agent — Working Claude Skills, Curated
+# 🧠 Claude Code Skills — a Curated, Verified Catalog
 
 **A hand-checked collection of Claude skills that actually work** — official Anthropic skills, Claude Code developer tooling, and marketing / SEO / LLM packs — plus a built-in **19-sub-skill SEO agent** you can run today.
 
@@ -124,7 +124,7 @@ This repo ships its own Claude Code skill: **a full technical + AI-era SEO audit
 
 ```bash
 # Install into your Claude Code skills directory
-git clone https://github.com/nurdamiron/seo-agent ~/.claude/skills/seo
+git clone https://github.com/nurdamiron/claude-code-skills ~/.claude/skills/seo
 # or copy just the skill file
 cp SKILL.md ~/.claude/skills/seo/SKILL.md
 ```
