@@ -5,6 +5,7 @@
 ### Changed
 - Repositioned README as a curated collection of working Claude skills (official Anthropic, Claude Code dev tooling, marketing/SEO/LLM) plus the built-in SEO agent as the headline bonus. All external links verified live on 2026-05-31 with current star counts.
 - Fixed broken install URL in README (`claude-seo-skill` → `seo-agent`).
+- Added `SKILLS-CATALOG.md` — niche-organized (RU) catalog of 11 verified skill repos with star counts and install commands; linked from README. Dropped a dead `ComposioHQ/Rube` link (404 → `rube.app`) and a 1-star meta-list during verification.
 
 ## v4.0 — 2026-05-09
 

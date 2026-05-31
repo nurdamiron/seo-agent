@@ -99,6 +99,8 @@ Install in Claude Code / Desktop by adding the MCP URL `https://rube.app/mcp` as
 
 ## Where to find more — curated lists
 
+> 🇷🇺 Niche-organized catalog in Russian (marketing, dev, security, multi-category, MCP) with install commands: **[SKILLS-CATALOG.md](SKILLS-CATALOG.md)**.
+
 Bigger registries when you want to browse the long tail (verified 2026-05-31):
 
 | List | Scope | Stars |
